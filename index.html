@@ -4,13 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>
-        <header>Weather Dashboard</header>
-        
-    </div>
+    <link rel="stylesheet" href="./assets/style.css"/>
+    <title>Weather Star</title>
     
+</head>
+
+<body>
+    <header><h1>Weather Dashboard</h1></header>
+    
+
+        <section class="searchContainer">
+            <h2>Search for a City</h2>
+            <form id="search-form">
+                <p id="inputContainer">City: <input type="text" id="cityInput"></p>
+                <button class="btn btn-info btn-block">Click Me</button>
+            </form>
+            <hr id="elementBreak" style="display: inline-block;">
+            <ul class="history">
+                <li>--Previous City--</li>
+                <li>--Previous City--</li>
+                <li>--Previous City--</li>
+            </ul>
+        </section>
+    
+        <main id="searchResults">
+            <h2 id="cityName">---City Name---</h2>
+            <p class="date-0 weather"></p>
+            <div class="image"><img src="" class="imgClass" id="img-0" alt="placeholder"></div>
+            <div>
+                <p class="temp" id="dTemp-0">Loading....</p>
+                <p class="wind" id="dWind-0">Loading....</p>
+                <p class="humidity" id="dHumidity-0">Loading....</p>
+            </div>
+        </main>
+    
+
+    <aside>
+        <h3>5-Day Forecast: </h3>
+        <section id="weatherContainer">
+            <div class="icons" >
+                <p class="date-1 weather"></p>
+                <div class="image"><img src="" class="imgClass" id="img-1" alt="placeholder"></div>
+                <div>
+                    <p class="temp" id="dTemp-1">Loading....</p>
+                    <p class="wind" id="dWind-1">Loading....</p>
+                    <p class="humidity" id="dHumidity-1">Loading....</p>
+                </div>
+            </div>
+    
+            <div class="icons" >
+                <p class="date-2 weather"></p>
+                <div class="image"><img src="" class="imgClass" id="img-2" alt="placeholder"></div>
+                <div>
+                    <p class="temp" id="dTemp-2">Loading....</p>
+                    <p class="wind" id="dWind-2">Loading....</p>
+                    <p class="humidity" id="dHumidity-2">Loading....</p>
+                </div>
+            </div>
+    
+            <div class="icons" >
+                <p class="date-3 weather"></p>
+                <div class="image"><img src="" class="imgClass" id="img-3" alt="placeholder"></div>
+                <div>
+                    <p class="temp" id="dTemp-3">Loading....</p>
+                    <p class="wind" id="dWind-3">Loading....</p>
+                    <p class="humidity" id="dHumidity-3">Loading....</p>
+                </div>
+            </div>
+    
+            <div class="icons" >
+                <p class="date-4 weather"></p>
+                <div class="image"><img src="" class="imgClass" id="img-4" alt="placeholder"></div>
+                <div>
+                    <p class="temp" id="dTemp-4">Loading....</p>
+                    <p class="wind" id="dWind-4">Loading....</p>
+                    <p class="humidity" id="dHumidity-4">Loading....</p>
+                </div>
+            </div>
+    
+            <div class="icons" >
+                <p class="date-5 weather"></p>
+                <div class="image"><img src="" class="imgClass" id="img-5" alt="placeholder"></div>
+                <div>
+                    <p class="temp" id="dTemp-5">Loading....</p>
+                    <p class="wind" id="dWind-5">Loading....</p>
+                    <p class="humidity" id="dHumidity-5">Loading....</p>
+                </div>
+            </div>
+        </section>    
+    </aside>
+
+    <script src="./assets/script.js"></script>
 </body>
+
 </html>
