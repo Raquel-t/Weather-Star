@@ -1,11 +1,3 @@
-* body {
-    border-color: blue;
-    
-}
-
-
-
-/* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -26,13 +18,34 @@ header {
 }
 
 .searchContainer {
+    background-color: #D8BFD8;
+    color:rgb(12, 14, 15);
+    float: left;
     margin: 20px auto;
     max-width: 400px;
+    padding: 1%;
     text-align: center;
 }
 
 h2 {
     margin-bottom: 10px;
+}
+
+li {
+    background-color: #5797c5;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+li:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
 }
 
 #inputContainer {

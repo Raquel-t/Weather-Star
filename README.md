@@ -33,6 +33,7 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
 ### Challenges
+This week's assignment was a brain buster, however I understond the fetch method. The JavaScript code couldn't be completed without the guidance of my tutor. Will add additional study hours to my schedule. 
 
 ### Deployed URL
 

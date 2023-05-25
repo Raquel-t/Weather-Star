@@ -16,8 +16,9 @@
         <section class="searchContainer">
             <h2>Search for a City</h2>
             <form id="search-form">
-                <p id="inputContainer">City: <input type="text" id="cityInput"></p>
+                <p id="inputContainer"><input type="text" id="cityInput" name="inputContainer" placeholder="Enter City name"></p>
                 <button class="btn btn-info btn-block">Click Me</button>
+                <input type="reset">
             </form>
             <hr id="elementBreak" style="display: inline-block;">
             <ul class="history">
@@ -29,8 +30,7 @@
     
         <main id="searchResults">
             <h2 id="cityName">---City Name---</h2>
-            <p class="date-0 weather"></p>
-            <div class="image"><img src="" class="imgClass" id="img-0" alt="placeholder"></div>
+            <p class="date-0 weather">Weather at the moment</p>
             <div>
                 <p class="temp" id="dTemp-0">Loading....</p>
                 <p class="wind" id="dWind-0">Loading....</p>
