@@ -32,8 +32,15 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
 ### Challenges
-This week's assignment was a brain buster, however I understond the fetch method. The JavaScript code couldn't be completed without the guidance of my tutor. Will add additional study hours to my schedule. 
+This week's assignment was a brain buster, however I was able to understand the fetch method. The JavaScript code couldn't be completed without the guidance of my tutor. Also, after deploying the site, it did not adjust to different screen size; which had to do with the CSS. Will study into JavaScript and CSS going further.
 
 ### Deployed URL
 
+https://raquel-t.github.io/Weather-Star/ 
+
 ### Screenshots
+
+![Alt text](assets/images/Screenshot%20weather%20project%20img1.jpg)
+
+![Alt text](assets/images/Screenshot%20weather%20project%20img2.jpg)
+
